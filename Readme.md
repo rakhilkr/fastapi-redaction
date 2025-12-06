@@ -4,18 +4,19 @@
 > Prevent AWS keys, Okta tokens, DB passwords, SFTP credentials, SharePoint secrets, JWT secrets, and any sensitive values from leaking into logs or API responses — without modifying your FastAPI endpoint code.
 
 ---
+
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-Compatible-brightgreen?logo=fastapi" />
-  <img src="https://img.shields.io/badge/Security-Focused-red?logo=security" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative" />
   <img src="https://img.shields.io/pypi/v/fastapi-redaction.svg?logo=pypi" />
   <img src="https://img.shields.io/github/stars/yourusername/fastapi-redaction?style=social" />
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0Exk8EUzSLsrErEQ/giphy.gif" width="400" alt="Data Security Animation"/>
+  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="400" alt="Security Animation"/>
 </p>
+
 ---
 
 ## 🚨 Why this package exists
