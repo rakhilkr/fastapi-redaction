@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-redaction"
+version = "0.1.0"
+description = "Redact secrets in FastAPI requests, responses, and logs."
+readme = "README.md"
+license = "MIT"                 # SPDX string instead of table
+license-files = ["LICENSE"]     # points to your LICENSE file
+authors = [
+    {name="Rakhil KR", email="rakhil.rahul@gmail.com"}
+]
+keywords = ["fastapi", "logging", "security", "middleware", "redaction"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: FastAPI",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "fastapi>=0.95",
+    "starlette>=0.27"
+]
+
+[tool.setuptools.packages.find]
+where = ["fastapi_redaction"]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/fastapi-redaction"
+"Repository" = "https://github.com/yourusername/fastapi-redaction"
